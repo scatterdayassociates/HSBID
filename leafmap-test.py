@@ -10,7 +10,7 @@ st.set_page_config(
 )
 
 # Add title and description
-st.title("Leafmap Visualization in Streamlit")
+st.title("Scatterday & Associates Mapping Visualization Demo")
 st.markdown("A simple demonstration of integrating leafmap with Streamlit for geospatial visualization")
 
 # Create a sample dataframe with lat/lon coordinates
