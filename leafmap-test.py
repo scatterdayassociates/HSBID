@@ -30,8 +30,8 @@ gdf = gpd.GeoDataFrame(
     crs='epsg:4326'
 )
 
-# Create a map
-m = leafmap.Map(center=[40, -100], zoom=3, toolbar_control=True, layers_control=True)
+# Create a map centered on Indianapolis, IN
+m = leafmap.Map(center=[39.7684, -86.1581], zoom=17, toolbar_control=True, layers_control=True)
 
 # Add the GeoDataFrame to the map
 m.add_gdf(gdf, layer_name="Cities")
@@ -65,7 +65,7 @@ if split_view:
     )
 
 # Display the map in Streamlit
-m.to_streamlit(height=600)
+m.to_streamlit(height=900)
 
 # Add some additional information below the map
 st.subheader("Dataset Information")
