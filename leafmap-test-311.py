@@ -11,8 +11,8 @@ st.set_page_config(
 )
 
 # Add title and description
-st.title("Hudson Square BID 311 Complaint Mapping Visualization Demo")
-st.markdown("A simple demonstration of 311 data visualization for BID member, community and government agency engagement")
+st.title("HSBID 311 Complaint Mapping Demo")
+st.markdown("A simple demonstration of 311 data visualization for BID members, the Hudson Square community and other relevant stakeholders")
 
 # Fetch GeoJSON data from API URL
 geojson_url = "https://data.cityofnewyork.us/resource/erm2-nwe9.geojson"
